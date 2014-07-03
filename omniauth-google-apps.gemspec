@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_dependency 'omniauth', '~> 1.0'
-  s.add_dependency 'omniauth-openid', '~> 1.0'
+  s.add_dependency 'omniauth-openid', github: 'advancedcontrol/omniauth-openid'
   s.add_dependency 'ruby-openid-apps-discovery', '~> 1.2.0'
   s.add_dependency 'ruby-openid', "~> 2.3.0"
   s.add_development_dependency 'rspec', '~> 2.7'
