@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  s.add_dependency 'omniauth', '~> 1.0'
+  s.add_dependency 'omniauth', '~> 1.2'
   s.add_dependency 'ruby-openid-apps-discovery', '~> 1.2.0'
   s.add_dependency 'ruby-openid', "~> 2.5.0"
   s.add_development_dependency 'rspec', '~> 2.7'
